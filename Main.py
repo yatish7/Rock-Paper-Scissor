@@ -6,17 +6,7 @@ p2=input("Enter the name of Player 2? ")
 s1=s2=0
 reply=input("Do you want to know the basic rules of the game(Yes/No)??")
 if reply=='Yes':
-  print("\n *******Instructions******\n")
-  print("Firstly,both the players in each turn choose anything between Rock,Paper,Scissor")
-  print("The choosen options are not known to your oponents")
-  print("The rock beats the scissor")
-  print("The Scissor beats the Paper")
-  print("The Paper beats the Rock")
-  print("According to the above rules, point will be added to the player who won that round")
-  print("Only one or no player gets a point in each round")
-  print("Rock --> r")
-  print("Paper --> p")
-  print("Scissor --> s")
+  import Instructions
 else:
     print("Alright then the game is about to start")
 p=int(input("Enter how many points you want to play?"))
